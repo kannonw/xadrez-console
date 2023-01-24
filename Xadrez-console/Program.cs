@@ -1,4 +1,5 @@
 ﻿using System;
+using Xadrez_console.table;
 
 namespace Xadrez_console
 {
@@ -6,7 +7,7 @@ namespace Xadrez_console
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("sim");
+            Position p = new Position(3, 4);
         }
     }
 }
