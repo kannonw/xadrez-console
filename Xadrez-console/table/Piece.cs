@@ -16,7 +16,5 @@ namespace Xadrez_console.table
             Color = color;
             Table = table;
         }
-
-
     }
 }

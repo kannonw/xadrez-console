@@ -14,5 +14,10 @@ namespace Xadrez_console.table
             Column = column;
             _piece= new Piece[row, column];
         }
+
+        public Piece GetPiece(int row, int column)
+        {
+            return _piece[row, column];
+        }
     }
 }
