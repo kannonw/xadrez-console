@@ -7,7 +7,7 @@ namespace Xadrez_console
     {
         static void Main(string[] args)
         {
-            Position p = new Position(3, 4);
+            Table table = new Table(8, 8);
         }
     }
 }
