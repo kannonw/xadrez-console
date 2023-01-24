@@ -14,12 +14,9 @@ namespace Xadrez_console
                     Piece piece = table.GetPiece(r, c);
 
                     if (piece != null)
-                    {
-                        Console.Write(piece.ToString(), " ");
-                    } else
-                    {
+                        Console.Write(piece.ToString() + " ");
+                    else
                         Console.Write("· ");
-                    }    
                 }
                 Console.WriteLine();
             }

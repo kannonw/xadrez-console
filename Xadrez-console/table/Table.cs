@@ -19,5 +19,11 @@ namespace Xadrez_console.table
         {
             return _piece[row, column];
         }
+
+        public void InsertPiece(Piece piece, Position position)
+        {
+            _piece[position.Row, position.Column] = piece;
+            piece.Position = position;
+        }
     }
 }

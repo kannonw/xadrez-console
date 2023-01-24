@@ -10,9 +10,8 @@ namespace Xadrez_console.table
         public int QtdMoviment { get; protected set; }
         public Table Table { get; protected set; }
 
-        public Piece(Position position, Color color, Table table)
+        public Piece(Color color, Table table)
         {
-            Position = position;
             Color = color;
             Table = table;
         }
